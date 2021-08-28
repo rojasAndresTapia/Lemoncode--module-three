@@ -131,7 +131,7 @@ const empleado = {
   getSalary(empleado);
  
  function getAnualSalaryNeto () {
-     const anualSalary = empleado.bruto * 14;
+     const anualSalary = empleado.bruto;
      const anualSalaryNeto = anualSalary - totalRetencion;
      
      return anualSalaryNeto;
