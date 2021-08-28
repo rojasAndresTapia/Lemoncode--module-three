@@ -142,7 +142,7 @@ const empleado = {
  getAnualSalaryNeto();
 
  function getMonthlySalary() {
-     totalPays = empleado.pagas;
+     const totalPays = empleado.pagas;
     const monthlySalary = getAnualSalaryNeto() / totalPays;
     return monthlySalary;
     
